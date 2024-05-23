@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    border: solid red;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+}
+h4{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: bolder;
+}
+#valor{
+    font-size: 2rem;
+}
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+    
